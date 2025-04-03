@@ -4,10 +4,71 @@
     margin: 0%;
 }
 .container{
-    background-image: url(face.jpg);
+    background-image: url(newj.jpg);
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.side{
+    text-align: right;
+    justify-content: right;
+    font-size: 60px;
+    margin:50px ;
+    padding: 40px 0px;
+    color: whitesmoke;
+}
+.bio{
+    padding: 50px 0px;
+}
+#Biography{
+    text-align: center;
+    text-decoration: none;
+    color: cornsilk;
+}
+.awa{
+    padding: 10px 0px;
+}
+#Albums{
+    text-align: center;
+    text-decoration: none;
+    color: cornsilk;
+}
+p{
+    color: whitesmoke;
+    padding: 10px;
+    font-weight: 40px;
+    font-size: large;
+}
+ul{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    list-style: none;
+    background-color: whitesmoke;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.con{
+    display: flex;
+    gap: 40px;
+    padding: 10px 40px;
+    margin: 20px;
+}
+h4{
+    color: cornsilk;
+}
+h5{
+    color: whitesmoke;
+}
+#Awards{
+    color: gray;
 }
