@@ -4,18 +4,20 @@
     margin: 0%;
 }
 .container{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
     background-image: url(newj.jpg);
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  
 }
 .side{
     text-align: right;
     justify-content: right;
-    font-size: 60px;
-    margin:50px ;
+    font-size: 30px;
+    margin:90px ;
     padding: 40px 0px;
     color: whitesmoke;
 }
@@ -28,7 +30,7 @@
     color: cornsilk;
 }
 .awa{
-    padding: 10px 0px;
+    margin: 10px;
 }
 #Albums{
     text-align: center;
@@ -37,9 +39,10 @@
 }
 p{
     color: whitesmoke;
-    padding: 10px;
+    padding:10px 30px;
     font-weight: 40px;
     font-size: large;
+    
 }
 ul{
     display: flex;
@@ -71,4 +74,5 @@ h5{
 }
 #Awards{
     color: gray;
+    margin: 5px;
 }
