@@ -5,7 +5,61 @@
 }
 .nav{
     display: flex;
-    gap: 100px;
-    background-color: black;
-    color: bisque;
+    gap: 200px;
+    background-color:aliceblue;
+    color: black;
+    padding: 25px;
+    font-size: 20px;
 }
+.ass{
+    color: burlywood;
+}
+a{
+    text-decoration: none;
+    text-align: right;
+    color: black;
+    justify-content: right;
+    font-size: larger;
+    font-style: italic;
+}
+.word{
+    font-size: 40px;
+    font-style: italic;
+}
+body{
+    background-color: black ;
+ }
+ h1{ color: burlywood;
+     text-align: right;
+     justify-content: right;
+     font-size: 260%;
+     margin:50px ;
+ }
+ h2{
+     color: burlywood;
+ }
+ .playlist{
+     display: inline-block;
+     background-color: #e0484d;
+     color: white;
+     padding: 12px 25px;
+     margin-top: 20px;
+     border-radius: 30px;
+     text-decoration: none;
+     font-size: 18px;
+     font-weight: bold;
+     transition: background 0.3s ease, transform 0.2s ease;
+     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+ }
+ .playlist:hover {
+     background-color: #e0484d;
+     transform: translateY(-3px);
+     box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+ }
+ .foot{
+     justify-content: right;
+     text-align: right;
+ }
+ .content{
+    margin-top: 30px;
+ }

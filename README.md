@@ -7,7 +7,7 @@ Description
 This is a description is about "Jerad Higgins" a late American rapper, singer and songwriter known for his emotional
 songs and blend of hip-hop with rock and emo influence. His songs often dealt with themes like heartbreak, mental health and substance use.
 He passed away in December 2019 at the age of 21 due too an accidental drug overdose. Despite his short carreer, he left a lasting impact on the music industry and gained a massive fanbase. 
-
+<img newj.jpg>
 Features
 
 
