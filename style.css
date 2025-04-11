@@ -1,3 +1,4 @@
+
 *{
     box-sizing: border-box;
     padding: 0%;
@@ -6,7 +7,7 @@
 .container{
     background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
     background-image: url(newj.jpg);
-    min-height: 100px;
+    min-height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -16,8 +17,8 @@
     text-align: right;
     justify-content: right;
     font-size: 30px;
-    margin:90px ;
-    padding: 40px 0px;
+    margin:70px ;
+    padding: 30px 0px;
     color: whitesmoke;
 }
 .bio{
@@ -40,7 +41,7 @@
 p{
     color: whitesmoke;
     padding:10px 30px;
-    font-weight: 40px;
+    font-weight: normal;
     font-size: large;
     
 }
@@ -65,6 +66,7 @@ a{
     gap: 40px;
     padding: 10px 40px;
     margin: 20px;
+    flex-wrap: wrap;
 }
 h3{
     color: cornsilk;
@@ -83,16 +85,75 @@ ul{
     font-size: 18px;
 }
 .alb{
-    margin-top: 300px;
+    margin-top: 100px;
 }
 .ards{
     color: whitesmoke;
     font-size: 19px;
     padding:10px 30px;
-    font-weight: 40px;
+    font-weight: normal;
 }
 img{
-        max-width: 100%; /* Ensures images scale properly */
-        height: auto; /* Maintains aspect ratio */
-        border-radius: 10px; /* Optional: Adds rounded corners */
+        max-width: 100%; 
+        height: auto; 
+        border-radius: 10px; 
+}
+@media screen and (max-width: 768px) {
+    .side {
+        font-size: 20px;
+        margin: 50px;
+        text-align: right; /* Center align text */
+    }
+
+    ol {
+        gap: 20px;
+        flex-direction:row; /* Stack navigation items vertically */
+        padding: 20px;
+        font-size: 16px;
+    }
+
+    .con {
+        gap: 20px;
+        padding: 10px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    h1, h2, h3 {
+        font-size: 24px;
+    }
+
+    .alb {
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .side {
+        font-size: 18px;
+        margin: 30px;
+    }
+
+    ol {
+        gap: 10px;
+        font-size: 14px;
+    }
+
+    .con {
+        gap: 10px;
+        padding: 5px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    h1, h2, h3 {
+        font-size: 20px;
+    }
+
+    .alb {
+        margin-top: 50px;
+    }
 }

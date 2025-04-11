@@ -62,4 +62,51 @@ body{
  }
  .content{
     margin-top: 30px;
+    flex-wrap: wrap;
  }
+ @media screen and (max-width: 768px) {
+    .nav {
+        flex-direction: row;
+        gap: 10px;
+        text-align:right;
+    }
+
+    iframe {
+        max-width: 300px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .playlist {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .word {
+        font-size: 30px;
+    }
+
+    .nav {
+        padding: 15px;
+    }
+
+    iframe {
+        max-width: 200px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    .playlist {
+        font-size:  14px;
+        padding: 8px 15px;
+    }
+
+    .ass {
+        font-size: 16px;
+    }
+}
