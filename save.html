@@ -1,123 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SONGS</title>
-    <style>
-           body{
-           background-color:black ;
-        }
-        h1{ color: burlywood;
-            text-align: right;
-            justify-content: right;
-            font-size: 260%;
-            margin:50px ;
-        }
-        h2{
-            color: cornsilk;
-        }
-        p{
-            color: cornsilk;
-        }
-        .playlist{
-            display: inline-block;
-            background-color: #e0484d;
-            color: white;
-            padding: 12px 25px;
-            margin-top: 20px;
-            border-radius: 30px;
-            text-decoration: none;
-            font-size: 18px;
-            font-weight: bold;
-            transition: background 0.3s ease, transform 0.2s ease;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        }
-        .playlist:hover {
-            background-color: #e0484d;
-            transform: translateY(-3px);
-            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
-        }
-        .foot{
-            justify-content: right;
-            text-align: right;
-        }
-    </style>
+    <title>A Tribute Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>PLAYLIST</h1>
-    <div>
-        <iframe src="https://audiomack.com/embed/juicewrld/song/legends" scrolling="no" width="30%" height="250" frameborder="0" title="Legends"></iframe>
-        <h2>Legends</h2>
-        <h3></h3>
-    </div>
-    <div>
-        <iframe src="https://audiomack.com/embed/complexprince/song/all-girls-are-the-same" scrolling="no" width="30%" height="250" frameborder="0" title="All Girls Are The Same"></iframe>
-        <h2>All Girls Are The Same</h2>
-        <h3></h3>
-    </div>
-    <div>
-        <iframe src="https://audiomack.com/embed/yungscarr5/song/stay-high" scrolling="no" width="30%" height="250" frameborder="0" title="Stay High"></iframe>
-        <h2>Stay High</h2>
-        <h3></h3>
-    </div>
-    <div>
-        <iframe src="https://audiomack.com/embed/apple243246/song/robbery" scrolling="no" width="30%" height="250" frameborder="0" title="Robbery"></iframe>
-        <h2>Robbery</h2>
-        <h3></h3>
-    </div>
-    <div>
-        <iframe src="https://audiomack.com/embed/sansid2006/song/graduation-juice-wrld" scrolling="no" width="30%" height="250" frameborder="0" title="Graduation"></iframe>
-        <h2>Graduation</h2>
-        <h3></h3>
-    </div>
-    <div>
-        <iframe src="https://audiomack.com/embed/rafa17-1/song/12961106" scrolling="no" width="30%" height="250" frameborder="0" title="Hate Me (Except it's only Juice WRLD)"></iframe>
-        <h2>Hate Me</h2>
-        <h3></h3>
-    </div>
-    <footer class="foot">
-        <p>LISTEN TO MORE <a href="https://audiomack.com/search?q=Juice%20WRLD" target="_blank" class="playlist">Playlist</a></p>
-        </p>
-    </footer>
-</body>
-</html>
-<a href="https://audiomack.com/juicewrld/album/goodbye-good-riddance" target="_blank"><img src="good.jpg" alt="album cover" width="150px"></a>
-<div>
-    <a href="https://audiomack.com/juicewrld/album/goodbye-good-riddance" target="_blank"><img src="good.jpg" alt="album cover" width="150px"></a>
-    <h3>Goodbye & <br>Good Riddance</h3>
-    <h4>2018, EP</h4>
-</div>
-<div class="stay">
-    <a href="https://audiomack.com/yungscarr5/song/stay-high" target="_blank"><img src="estay.jpeg" alt="light" width="160px"></a>
-        <h3>stay High</h3>
-        <h4>2016, EP</h4>
-</div>
-<div>
-    <a href="https://audiomack.com/freaq-xeonikz/song/smile" target="_blank"><img src="smi.jpg" alt="smile" width="150px"></a>
-    <h3>Smile</h3>
-    <h4>2020, EP</h4>
-</div>
-</div>
-<div class="ide">
-<div>
-    <a href="https://audiomack.com/juicewrld999v2/album/nothings-different-3" target="_blank"><img src="nothing.jpg" alt="nothing" width="150px">
-    <h3>Nothings Different</h3>
-    <h4>2017, EP</h4>
-</div>
-<div>
-    <a href="https://audiomack.com/embed/blessedozegin/album/legend-never-dies-original" target="_blank"><img src="legends.jpg" alt="leg" width="150"></a> 
-    <h3>Legends Never Die</h3>
-    <h4>2020, EP</h4>
-</div>
-<div class="me">
-    <a href="https://audiomack.com/rafa17-1/song/12961106" target="_blank"><img src="hate.jpeg" alt="Hate Me" width="165"></a>
-    <h3>Hate Me</h3>
-    <h4>2018, EP</h4>
-</div>
-</div>
-</div>
-</div>
-</section>
+    <header>
+        <nav class="navbar">
+            <ol class="nav-links" id="navlinks">
+                <li><a href="#Biography">Biography</a></li>
+                <li><a href="#Awards">Awards</a></li>
+                <li><a href="#Albums">Albums</a></li>
+                <li><a href="songs.html">Songs</a></li>
+            </ol>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+        </nav>
+    </header>
+    <main class="main">
+        <marquee behavior="scroll" direction="left" scrollamount="12"><h2 class="juice">JUICE WRLD</h2></marquee>
+    </main>
+    <section class="sect">
+        <div class="bio">
+            <h1 id="Biography">BIOGRAPHY</h1>
+            <p><strong>Jarad Anthony Higgins</strong> (December 2, 1998 – December 8, 2019), known professionally as Juice Wrld (pronounced "juice world"; stylized as Juice WRLD), was an American rapper, singer, and songwriter. He emerged as a leading figure in the emo and SoundCloud rap genres, which garnered mainstream attention during the mid-to-late 2010s. His stage name, which he said represents "taking over the world", was derived from the crime thriller film Juice (1992).</p>
+           <p>Higgins began his career as an independent artist in 2015 under the name <strong>JuicetheKidd</strong>, and signed a recording contract with fellow Chicago rapper Lil Bibby's Grade A Productions in 2017; he entered a joint venture with Interscope Records early the following year. He gained recognition with the diamond-certified 2018 single "Lucid Dreams", which peaked at number two on the Billboard Hot 100.</p> 
+           <p>The song preceded his triple platinum debut album Goodbye & Good Riddance (2018), which also included the Billboard Hot 100 entries "All Girls Are the Same", "Lean wit Me", "Wasted", and "Armed and Dangerous". He then released the collaborative mixtape Wrld on Drugs (2018) with Future, as well as his second album, Death Race for Love (2019); the latter contained the hit single "Robbery" and became Higgins' first number one debut on the US Billboard 200.</p>
+            <p>Higgins died of a drug overdose on December 8, 2019. His first posthumous album, Legends Never Die (2020), matched chart records for most successful posthumous debut and for most U.S. top-ten entries from one album, while the single "Come & Go" (with Marshmello) became Higgins' second song to reach number two on the Hot 100. His second posthumous album, Fighting Demons (2021), was released alongside the documentary film Juice Wrld: Into the Abyss and contained the U.S. top 20 single "Already Dead". His third posthumous album, The Party Never Ends (2024), was released alongside an appearance and virtual concert in the video game Fortnite.</p>
+        </div>
+        <div class="awa">
+            <h1 id="Awards">AWARDS</h1>
+            <p class="ards">Juice WRLD, the late rapper and singer, was recognized with several awards throughout his career. Some of his notable accolades include:</p>
+            <ul>
+                <li>Juice WRLD won several major awards, including the Billboard Music Award for Top New Artist in 2019.</li>
+                <li>He received the iHeartRadio Music Award for Hip Hop Album of the Year in 2020.</li>
+                <li>In 2020, he was honored with the American Music Award for Favorite Rap/Hip Male Artist.</li>
+                <li>His posthumous recognition includes multiple nominations and awards, reflecting his lasting impact on music.</li>
+                <li>Overall, Juice WRLD's achievements highlight both commercial success and critical acclaim in contemporary music.</li>
+            </ul>
+            <p>Juice WRLD's impact on the music scene is <strong>undeniable</strong>, and his <strong>awards</strong> reflect that. From the moment he burst onto the scene, it was clear that he was destined for greatness. His <strong> raw talent</strong> and <strong>emotional depth</strong> resonated with fans and critics alike, leading to a series of accolades that underscore his influence. Winning the <strong>Billboard Music Award</strong> for <strong>Top New Artist</strong> in 2019 marked a <strong>significant recognition</strong> early in his career. You could see that this award was just the beginning for him; it showcased his potential and set the stage for what was to come.</p>
+            <p>In the following years, Juice WRLD continued to earn accolades that cemented his legacy. Even after his untimely passing, he was honored with the <strong>iHeartRadio Music Award</strong> for Hip Hop Album of the Year in 2020. This <strong>posthumous recognition</strong> speaks volumes about his impact on the music industry, acknowledging that his work transcended his brief time in the spotlight. His album was a cornerstone of contemporary hip-hop, proving that Juice WRLD's music would continue to resonate long after his death.</p>
+        </div>
+        <div class="alb">
+            <h1 id="Albums">Albums</h1>
+            <div class="acontainer">
+                <div class="acon">
+                    <div>
+                        <a href="https://audiomack.com/juicewrld/album/goodbye-good-riddance" target="_blank"><img src="good.jpg" alt="album cover" width="150px"></a>
+                        <h3>Goodbye & <br>Good Riddance</h3>
+                        <h4>2018, EP</h4>
+                    </div>
+                    <div>
+                        <a href="https://audiomack.com/yungscarr5/song/stay-high" target="_blank"><img src="estay.jpeg" alt="light" width="150px"></a>
+                        <h3>stay High</h3>
+                        <h4>2016, EP</h4>
+                    </div>
+                    <div>
+                        <a href="https://audiomack.com/freaq-xeonikz/song/smile" target="_blank"><img src="smi.jpg" alt="smile" width="150px"></a>
+                        <h3>Smile</h3>
+                        <h4>2020, EP</h4>
+                    </div>
+                    <div>
+                        <a href="https://audiomack.com/juicewrld999v2/album/nothings-different-3" target="_blank"><img src="nothing.jpg" alt="nothing" width="150px">
+                        <h3>Nothings Different</h3>
+                        <h4>2017, EP</h4>
+                    </div>
+                </div>
+                <div class="aco">
+                    <div>
+                    <div class="ac">
+                        <a href="https://audiomack.com/embed/sansid2006/song/graduation-juice-wrld" target="_blank"><img src="aud.jpeg" alt="Graduation" width="150px"</a>
+                        <h3>Graduation</h3>
+                        <h4>2018, EP</h4>
+                    </div>
+                    </div>
+                    <div>
+                        <a href="https://audiomack.com/embed/blessedozegin/album/legend-never-dies-original" target="_blank"><img src="legends.jpg" alt="leg" width="150"></a> 
+                        <h3>Legends Never Die</h3>
+                        <h4>2020, EP</h4>
+                    </div>
+                    <div>
+                        <a href="https://audiomack.com/rafa17-1/song/12961106" target="_blank"><img src="hate.jpeg" alt="Hate Me" width="150" height="150px"></a>
+                        <h3>Hate Me</h3>
+                        <h4>2018, EP</h4>
+                    </div>
+                    <div>
+                        <a href="https://audiomack.com/embed/apple243246/song/robbery" target="_blank"><img src="rob.jpeg" alt="robbery" width="150"</a>
+                        <h3>Robbery</h3>
+                        <h4>2017</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

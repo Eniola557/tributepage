@@ -1,120 +1,170 @@
-
-*{
-    box-sizing: border-box;
-    padding: 0%;
-    margin: 0%;
-}
-.sect{
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("newj.jpg");
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.main {
-  background-image: url("newj.jpg");
-  min-height: 100%; /* Ensure the container is at least the height of the viewport */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 12%;
-}
-.bio{
-    padding: 50px 0px;
-    margin-bottom: 5rem;
-}
-#Biography{
-    padding-bottom: 40px;
-    text-align: center;
-    text-decoration: none;
-    color: cornsilk;
-    font-size: 3rem;
-}
-marquee{
-    width: 100%;
-    height: 50%;
-}
-.awa{
-    margin-bottom: 8rem;
-}
-#Albums{
-  padding-bottom: 30px;
-    text-align: center;
-    text-decoration: none;
-    color: cornsilk;
-    font-size: 3rem;
-}
-p{
-    color: whitesmoke;
-    padding:10px 30px;
-    font-weight: normal;
-    font-size: large;
-    word-spacing: 3px;
-}
-.blue{
-  padding: 3%;
-  background-color:white;
-}
-ol{
-    display: flex;
-    gap: 50px;
-    justify-content: center;
-    text-align: center;
-    padding: 25px;
-    list-style: none;
-    background-color: whitesmoke;
-    font-weight: bold;
-    font-size: 20px;
-    text-decoration: none;
-    overflow: hidden;
-    position: fixed; 
-    top: 0;
-    width: 100%; 
-}
-a{
-    text-decoration: none;
-    color: black;
-}
-h2{
-    font-size: 10rem;
-    color: whitesmoke;
-}
-h3{
-    color: cornsilk;
-    padding-top: 10px;
-}
-h4{
-    color: whitesmoke;
-}
-#Awards{
-    padding-bottom: 40px;
-    color: cornsilk;
-    text-align: center;
-    text-decoration: none;
-    font-size: 3rem;
-}
-ul{
+   .body {
+      height: 100%;
+    }
+    
+    .navbar {
+      background: whitesmoke;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    
+    .logo {
+      font-weight: bold;
+      font-size: 1.2rem;
+      color: black;
+    }
+    
+    .nav-links {
+      display: flex;
+      list-style: none;
+      gap: 20px;
+    }
+    
+    .nav-links a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+    
+    /* Hamburger Menu */
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 4px;
+      cursor: pointer;
+    }
+    
+    .hamburger span {
+      width: 25px;
+      height: 3px;
+      background: black;
+      #413f53
+      border-radius: 2px;
+    }
+   
+    /* Hero Section */
+    .main-header {
+      background-image: url("b9b54f2e-5f24-46bf-a9e1-00f034ed2185.jpg");
+      height: 100%;; 
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-color:#a4a4d3;
+      padding: 16%;
+    }
+    .section{
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("newj.jpg");
+      height: 100%;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .juice{
+      color: whitesmoke;
+      font-size: 5rem;
+    }
+    
+    /* Content Sections */
+    .bio {
+      padding: 50px 0px;
+      margin-bottom: 4rem;
+    }
+    p{
+      color: whitesmoke;
+      padding:10px 30px;
+      font-weight: normal;
+      font-size: large;
+      word-spacing: 2px;
+    }
+     h2 {
+      font-size: 2rem;
+      color: cornsilk;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    h3{
+      color: cornsilk;
+    }
+    h4{
+      color: whitesmoke;
+    }
+    ul{
     color: whitesmoke;
     padding:10px 60px;
     font-size: 18px;
     word-spacing: 3px;
-}
-.alb{
-    margin-top:px;
-}
-.ards{
-    color: whitesmoke;
-    font-size: 19px;
-    padding:10px 30px;
-    font-weight: normal;
-}
-.acon{
-  display: flex;
-  justify-content: center;
-  gap: 90px;
-}
-.aco{
-  
-}
+  }
+    .album-card {
+      margin: 10px;
+      max-width: 150px;
+    }
+    
+    .album-card img {
+      min-width:100%;
+      border-radius: 10px;
+      height: auto;
+    }
+    
+    .albums {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .albu{
+      display:flex ;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    /* Responsive */
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        background: #222;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        width: 200px;
+        padding: 15px;
+        border-radius: 5px;
+      }
+    
+      .nav-links.show {
+        display: flex;
+      }
+    
+      .nav-links li a {
+        color: white;
+      }
+    
+      .hamburger {
+        display: flex;
+      }
+    
+      .juice {
+        font-size: 2rem;
+      }
+    
+      .section h2 {
+        font-size: 1.5rem;
+      }
+    
+      .albums {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .album-card {
+        width: 80%;
+      }
+    }
+    
