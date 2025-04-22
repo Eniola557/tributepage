@@ -2,27 +2,25 @@
       height: 100%;
     }
     
-    .navbar {
-      background: whitesmoke;
-      padding: 15px 20px;
+    .nava{
+      background-color: whitesmoke;
+      padding: 10px 20px;
       display: flex;
-      justify-content: space-between;
+      width: 100%;
+      justify-content: center;
       align-items: center;
-      position: sticky;
+      position: fixed;
+      left: 0;
       top: 0;
       z-index: 10;
-    }
-    
-    .logo {
       font-weight: bold;
       font-size: 1.2rem;
       color: black;
     }
-    
     .nav-links {
       display: flex;
       list-style: none;
-      gap: 20px;
+      gap: 40px;
     }
     
     .nav-links a {
@@ -43,23 +41,21 @@
       width: 25px;
       height: 3px;
       background: black;
-      #413f53
       border-radius: 2px;
     }
    
     /* Hero Section */
     .main-header {
-      background-image: url("b9b54f2e-5f24-46bf-a9e1-00f034ed2185.jpg");
-      height: 100%;; 
+      background-image: url('nwj.png');
+      height: 100%;
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
-      background-size: contain;
-      background-color:#a4a4d3;
-      padding: 16%;
+      background-size: cover;
+      padding: 14%;
     }
     .section{
-      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("newj.jpg");
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("nwj.png");
       height: 100%;
       background-attachment: fixed;
       background-position: center;
@@ -83,8 +79,8 @@
       font-size: large;
       word-spacing: 2px;
     }
-     h2 {
-      font-size: 2rem;
+     h2{
+      font-size:3rem;
       color: cornsilk;
       margin-bottom: 20px;
       text-align: center;
@@ -155,7 +151,7 @@
       }
     
       .section h2 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
       }
     
       .albums {

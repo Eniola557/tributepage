@@ -2,41 +2,60 @@
     box-sizing: border-box;
     padding: 0%;
     margin: 0%;
-}
-.nav{
-    display: flex;
-    gap: 200px;
-    background-color:aliceblue;
-    color: black;
-    padding: 25px;
-    font-size: 20px;
+    
 }
 .ass{
-    color: burlywood;
+    ;
 }
-a{
-    text-decoration: none;
-    text-align: right;
+.nav{
+    background-color: whitesmoke;
+    padding: 25px 20px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    font-weight: bold;
+    font-size: 1.2rem;
     color: black;
-    justify-content: right;
-    font-size: larger;
-    font-style: italic;
 }
-.word{
-    font-size: 40px;
-    font-style: italic;
+.navi{
+    display: flex;
+    flex-wrap: wrap;
+      list-style: none;
+      gap: 40px; 
 }
-body{
-    background-color: black ;
- }
+.navi a{
+    text-decoration: none;
+      color: black;
+      font-weight: bold;
+}
+.main{
+    padding: 13%;
+    text-align: center;
+    background-color: black;
+}
  h1{ color: burlywood;
-     text-align: right;
-     justify-content: right;
-     font-size: 260%;
-     margin:50px ;
+     text-align: center;
+     font-size: 2.5rem;
+     margin:20px ;
  }
  h2{
-     color: burlywood;
+     color: rgb(212, 141, 8);
+     text-align: center;
+ }
+ .lege{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+ }
+ .leg{
+    background-color:rgb(21, 20, 20);
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
  }
  .playlist{
      display: inline-block;
@@ -61,52 +80,22 @@ body{
      text-align: right;
  }
  .content{
-    margin-top: 30px;
-    flex-wrap: wrap;
+    padding: 20px;
+    background-color: black;
  }
- @media screen and (max-width: 768px) {
-    .nav {
-        flex-direction: row;
-        gap: 10px;
-        text-align:right;
+ @media (max-width: 600px) {
+    .navi {
+      flex-direction: row;
+      align-items: center;
+      gap: 10px;
+      padding: 1px;
     }
-
-    iframe {
-        max-width: 300px;
-    }
-
-    h2 {
-        font-size: 18px;
+  
+    h1 {
+      font-size: 2rem;
     }
 
     .playlist {
-        font-size: 16px;
-        padding: 10px 20px;
+        width: 90%;
+      }
     }
-}
-@media screen and (max-width: 480px) {
-    .word {
-        font-size: 30px;
-    }
-
-    .nav {
-        padding: 15px;
-    }
-
-    iframe {
-        max-width: 200px;
-    }
-
-    h2 {
-        font-size: 16px;
-    }
-
-    .playlist {
-        font-size:  14px;
-        padding: 8px 15px;
-    }
-
-    .ass {
-        font-size: 16px;
-    }
-}
