@@ -66,12 +66,16 @@
       color: whitesmoke;
       font-size: 5rem;
     }
-    
+    .awa{
+      padding: 50px 0px;
+      margin-bottom: 4rem;
+    }
     /* Content Sections */
     .bio {
       padding: 50px 0px;
       margin-bottom: 4rem;
     }
+
     p{
       color: whitesmoke;
       padding:10px 30px;
@@ -107,7 +111,10 @@
       border-radius: 10px;
       height: auto;
     }
-    
+    footer{
+      justify-content: center;
+      text-align: center;
+    }
     .albums {
       display: flex;
       justify-content: center;
